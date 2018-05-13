@@ -7,7 +7,7 @@ class ConvertToRomanNumeralsK {
     private val hundreds = arrayOf("C", "CC", "CCC", "CD", "D", "DC", "DCC", "DCCC", "CM")
     private val thousand = "M"
 
-    fun parseFromDecimals(number: Int): String {
+    fun toRomanNumerals(number: Int): String {
 
         return number
                 .takeIf { it > 0 }
